@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/jpg" href="assets/img/cuaderno.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+
+    
+
+
+<body>
+
+    <div class="contact-body">
+
+        <img src="./assets/img/directorio-telefonico.png" alt="user-login">
+        <p class="text">Contactos</p>
+        <form class="">
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Mi Información Personal</button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Bienvenido usuario Luis Archila. Seleccione la tarea que quiera realizar</p>
+                    <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown">
+                            Opciones Personales
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="perfilUsuario.html">Perfil de Usuario</a></li>
+                            <li><a class="dropdown-item" href="toDoList.html">Lista de Pendientes</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-secondary" href="index.html" role="button"
+                 style="background-color: #2473b9 ;">Cerrar Sesión</a>  
+                </div>
+            </div>
+            <br>
+            <a class="btn btn-secondary" href="favoritos.html" role="button">Contactos
+                Favoritos</a>
+            <br>
+
+            <div class="list-group">
+                <br>
+                <a href="detalles.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Luis Fernando Archila Valdez</h5>
+                        <small>Hace 4 días</small>
+                    </div>
+                    <p class="mb-1">larchilavaldez@gmail.com.</p>
+                    <small>36718873</small>
+                </a>
+                <a href="detalles.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Octavio Alejandro Corzo Reyes</h5>
+                        <small class="text-muted">Hace 6 días</small>
+                    </div>
+                    <p class="mb-1">Ocorzo@kinal.edu.gt.</p>
+                    <small class="text-muted">15248798</small>
+                </a>
+                <a href="detalles.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Jose Villeda Morales</h5>
+                        <small class="text-muted">Hace 8 días</small>
+                    </div>
+                    <p class="mb-1">Jvilleda@kinal.edu.gt</p>
+                    <small class="text-muted">22165487</small>
+                </a>
+                <a href="detalles.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Mario Esteban Aguilar May</h5>
+                        <small class="text-muted">Hace 10 días</small>
+                    </div>
+                    <p class="mb-1">Maguilar@kinal.edu.gt</p>
+                    <small class="text-muted">36789887</small>
+                </a>
+                <a href="detalles.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Abigail Reyes</h5>
+                        <small class="text-muted">Hace 12 días</small>
+                    </div>
+                    <p class="mb-1">Areyes@kinal.edu.gt</p>
+                    <small class="text-muted">45879896</small>
+                </a>
+            </div>
+            <br>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a class="btn btn-secondary" href="agregar.html" role="button"
+                    style="background-color: #5624b9 ;">Agregar Contacto</a>
+
+            </div>
+            <br>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
